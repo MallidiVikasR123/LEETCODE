@@ -12,7 +12,6 @@ public:
             i++;
             j++;
         }
-        double ans=(double)m/k;
-        return ans;
+        return (double)m/k;
     }
 };
