@@ -20,7 +20,7 @@ public:
                 power+=tokens[j];
                 j--;
             }
-            else break;
+            else return m;
         }
         return m;
     }
