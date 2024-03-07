@@ -11,6 +11,7 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
+        ios_base::sync_with_stdio(0);
         ListNode* temp=head;
         ListNode* temp1=head;
         if(head->next==NULL) return head;
