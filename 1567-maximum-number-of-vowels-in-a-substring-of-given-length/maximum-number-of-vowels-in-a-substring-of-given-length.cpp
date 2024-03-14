@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxVowels(string s, int k) {
+        ios_base::sync_with_stdio(0);
         int i=0,j=k-1;
         int m=INT_MIN,cnt=0;
         for(int i=0;i<k;i++)
