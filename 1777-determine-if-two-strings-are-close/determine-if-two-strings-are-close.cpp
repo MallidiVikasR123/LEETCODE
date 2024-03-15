@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool closeStrings(string word1, string word2) {
+        ios_base::sync_with_stdio(0);
         if(word1.size()!=word2.size()) return 0;
         vector<int>v(26),v1(26);
         for(int i=0;i<word1.size();i++) v[word1[i]-'a']++;
